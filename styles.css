@@ -28,19 +28,17 @@ nav a:hover {
 }
 
 [data-theme="dark"] {
-    background: #1a1a1a;
-    color: #ffffff;
+    background: #121212;
+    color: #e0e0e0;
+    /* Better contrast */
 }
 
 [data-theme="dark"] header {
-    background: #34495e;
+    background: #1e2a36;
+    /* Darker for better contrast */
 }
 
-button {
-    background: #3498db;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
+[data-theme="dark"] a {
+    color: #4fc3f7;
+    /* Brighter links */
 }
